@@ -30,7 +30,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-content">
         <div className="logo">
-          <img src="/realestatelogo.png" alt="Logo" />
+          <img src="/realestatelogo1.png" alt="Logo" />
         </div>
         <ul>
           <li><Link to="/">Home</Link></li>
@@ -39,9 +39,9 @@ function Navbar() {
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
-      <div className="navbar-description">
+      {/* <div className="navbar-description">
         <p>Your unique real estate solutions provider</p>
-      </div>
+      </div> */}
     </nav>
   );
 }

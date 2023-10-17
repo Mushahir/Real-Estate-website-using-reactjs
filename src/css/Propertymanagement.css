@@ -1,0 +1,54 @@
+.property-manager-resources {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px;
+    /* background-color: #f5f5f5; Set the background color you prefer */
+  }
+  
+  .left-content img {
+    width: 557px; /* Adjust the image size as needed */
+  }
+  
+  .right-content {
+    flex: 1;
+    padding: 86px;
+
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .know-more-button {
+    display: inline-block;
+    background-color: #0077b5; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .know-more-button:hover {
+    background-color: #005c8f; /* Button background color on hover */
+  }
+  .right-image-section {
+    flex-direction: row-reverse; /* Reverse the order of flex items */
+  }
+  .texts{
+background-color: #f5f5f5;
+  }
+  .texts-color{
+    background-color: wheat;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 24px;
+}

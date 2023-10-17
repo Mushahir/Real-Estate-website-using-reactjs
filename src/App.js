@@ -1,5 +1,39 @@
-// App.js
-import React from 'react';
+// IT SHOWS NORMALLY  WITHOUT LOGIN CODE
+// // App.js
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Navbar from './Navbar';
+// import Home from './Home';
+// import About from './About';
+// import Services from './Services';
+// import Contact from './Contact';
+// import Footer from './Footer';
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { fab } from '@fortawesome/free-brands-svg-icons'; // For brand icons (e.g., fab fa-linkedin)
+// import { fas } from '@fortawesome/free-solid-svg-icons'; // For solid icons (e.g., fas fa-envelope)
+
+// library.add(fab, fas);
+
+
+// function App() {
+//   return (
+//     <Router>
+//       <Navbar />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/about" element={<About />} />
+//         <Route path="/Contact" element={<Contact />} />
+//         <Route path="/Services" element={<Services />} />
+//       </Routes>
+//       <Footer/>
+//     </Router>
+//   );
+// }
+
+// export default App;
+
+
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
@@ -7,26 +41,39 @@ import About from './About';
 import Services from './Services';
 import Contact from './Contact';
 import Footer from './Footer';
+import Login from './Login'; // Import your Login component
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons'; // For brand icons (e.g., fab fa-linkedin)
 import { fas } from '@fortawesome/free-solid-svg-icons'; // For solid icons (e.g., fas fa-envelope)
 
 library.add(fab, fas);
 
-
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
   return (
     <Router>
-      <Navbar />
+      {isLoggedIn && <Navbar />}
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Services" element={<Services />} />
+        {isLoggedIn ? (
+          <>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/services" element={<Services />} />
+          </>
+        ) : (
+          <Route
+            path="/"
+            element={<Login setIsLoggedIn={setIsLoggedIn} />}
+          />
+        )}
       </Routes>
-      <Footer/>
+      {isLoggedIn && <Footer />}
     </Router>
   );
 }
 
 export default App;
+
+

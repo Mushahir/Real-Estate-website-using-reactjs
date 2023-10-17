@@ -53,7 +53,6 @@ function PropertyListing(props) {
 
   return (
     <div>
-      <h2>If you are looking For properties for sale and Rent in Dubai, look no further than this website. We round off the things you need to ensure a smooth process. Edge Realty is the largest real estate website with a wide range of residential and commercial properties for sale.</h2>
       <div className="property-list">
         <Slider {...sliderSettings}>
           {properties.map((property, index) => (
