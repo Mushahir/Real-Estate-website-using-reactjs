@@ -2,8 +2,31 @@ import React from 'react';
 import ParentComponent from './ParentComponent';
 import './css/Home.css';
 import Propertymanagement from './Propertymanagement';
+import FeaturedList from './FeaturedList';
 
 function Home() {
+  const featuredProperties = [
+    {
+      title: 'Luxury Villa',
+      description: 'Spacious 4-bedroom villa with a pool and garden.',
+      image: '/property1.jpg',
+    },
+    {
+      title: 'Downtown Apartment',
+      description: 'Modern 2-bedroom apartment in the heart of the city.',
+      image: '/property1.jpg',
+    },    {
+      title: 'Downtown Apartment',
+      description: 'Modern 2-bedroom apartment in the heart of the city.',
+      image: '/property1.jpg',
+    },
+    {
+      title: 'Downtown Apartment',
+      description: 'Modern 2-bedroom apartment in the heart of the city.',
+      image: '/property1.jpg',
+    }
+    // Add more featured properties as needed
+  ];
   return (
     <div>
       <div className="home-container">
@@ -30,9 +53,18 @@ function Home() {
         content1="Search over 1 million listings including apartments, houses, condos, and townhomes available for rent. Youll find your next home, in any style you prefer. "
       />
       </div>
+      {/* <div className="home-container1">
+        {featuredProperties.map((property, index) => (
+          <FeaturedList key={index} property={property} />
+        ))}
+      </div> */}
+       <div className="home-container1">
+        <FeaturedList featuredProperties={featuredProperties} />
+      </div>
     </div>
   );
 }
 
 export default Home;
+
 
