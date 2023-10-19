@@ -4,6 +4,7 @@ import './css/About.css';
 
 function About() {
   return (
+    <div>
     <div className="about-container">
       <h2>About Us</h2>
       <div className="about-content">
@@ -77,7 +78,8 @@ function About() {
     </div>
   </div>
 </div>
-<Stats />
+    </div>
+    <Stats />
     </div>
   );
 }
