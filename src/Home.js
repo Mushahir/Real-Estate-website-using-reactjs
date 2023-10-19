@@ -9,21 +9,21 @@ function Home() {
     {
       title: 'Luxury Villa',
       description: 'Spacious 4-bedroom villa with a pool and garden.',
-      image: '/property1.jpg',
+      image: '/feauturepic.jpg',
     },
     {
       title: 'Downtown Apartment',
       description: 'Modern 2-bedroom apartment in the heart of the city.',
-      image: '/property1.jpg',
+      image: '/feauturepic1.jpg',
     },    {
       title: 'Downtown Apartment',
       description: 'Modern 2-bedroom apartment in the heart of the city.',
-      image: '/property1.jpg',
+      image: '/feauturepic2.jpg',
     },
     {
       title: 'Downtown Apartment',
       description: 'Modern 2-bedroom apartment in the heart of the city.',
-      image: '/property1.jpg',
+      image: '/feauturepic3.jpg',
     }
     // Add more featured properties as needed
   ];
