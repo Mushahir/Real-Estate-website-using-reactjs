@@ -1,0 +1,160 @@
+.about-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .about-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: ui-sans-serif;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .about-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-text {
+    flex: 1 1;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  .about-text p{
+    font-size: 20px!important;
+  }
+
+
+
+  .about-content1 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .about-image1 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-image1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-text1 {
+    flex: 1 1;
+    padding: 114px;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+  .about-text1 p{
+    font-size: 20px!important;
+  }
+  .offers  img {
+    width: 20%;
+  }
+  .offers{
+    display: flex;
+    list-style-type: none;
+  }
+  /* About.css */
+
+.about-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.about-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.what-we-offer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.what-we-offer h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.offer-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.offer-item {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.offer-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.offer-item p {
+  font-size: 18px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-count {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 16px;
+  color: #555;
+}
+
