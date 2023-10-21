@@ -116,8 +116,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/PropertyDetails" element={<PropertyDetails />} />
-        <Route path="/property/:propertyId" element={<PropertyDetails />} />
+        <Route path="/PropertyDetails" element={<PropertyDetails/>} />
         {!isLoggedIn && <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />}
         {isLoggedIn && <Route path="/login" element={<Navigate to="/" />} />
         }

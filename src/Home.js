@@ -1,8 +1,8 @@
 import React from 'react';
 import ParentComponent from './ParentComponent';
-import './css/Home.css';
 import Propertymanagement from './Propertymanagement';
 import FeaturedList from './FeaturedList';
+import './css/Home.css';
 
 function Home() {
   const featuredProperties = [
