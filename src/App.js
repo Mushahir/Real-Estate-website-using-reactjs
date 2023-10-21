@@ -82,6 +82,7 @@
 
 
 import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
@@ -90,6 +91,7 @@ import Services from './Services';
 import Contact from './Contact';
 import Footer from './Footer';
 import Login from './Login';
+import PropertyDetails from './PropertyDetails.js';
 import Signup from './Signup';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -114,6 +116,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/PropertyDetails" element={<PropertyDetails />} />
+        <Route path="/property/:propertyId" element={<PropertyDetails />} />
         {!isLoggedIn && <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />}
         {isLoggedIn && <Route path="/login" element={<Navigate to="/" />} />
         }

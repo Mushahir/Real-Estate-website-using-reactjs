@@ -14,7 +14,10 @@
 // export default FeaturedList;
 import React from 'react';
 import './css/feauturedlist.css';
+import { useNavigate } from 'react-router-dom';
 function FeaturedList({ featuredProperties }) {
+  const navigate = useNavigate();
+
   return (
     <div className="featured-list">
       <h2>Explore Rentals</h2>
@@ -29,7 +32,9 @@ function FeaturedList({ featuredProperties }) {
           </div>
         ))}
       </div>
-      <button className="view-more-button">View More</button>
+      <button className="view-more-button" onClick={() => navigate('/PropertyDetails')}>
+  View More
+</button>
     </div>
   );
 }

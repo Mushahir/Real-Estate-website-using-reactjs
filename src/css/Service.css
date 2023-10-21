@@ -1,0 +1,42 @@
+.service-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .service-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .service-option {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .service-option img {
+    width: 85%;
+    border-radius: 5px;
+  }
+  
+  .service-option h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .service-option p {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: emoji;
+    font-weight: 500;
+  }
+  .service-content p {
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: emoji;
+    font-weight: 500;
+  }

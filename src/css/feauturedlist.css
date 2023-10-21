@@ -55,3 +55,6 @@
   .view-more-button:hover {
     background-color: #0056b3;
   }
+  .featured-property:hover{
+    background-color: #598ad4;
+  }
