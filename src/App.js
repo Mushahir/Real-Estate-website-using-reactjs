@@ -92,11 +92,12 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Login from './Login';
 import PropertyDetails from './PropertyDetails.js';
+import PaymentPage from './PaymentPage.js';
 import Signup from './Signup';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 library.add(fab, fas);
 
 function App() {
@@ -117,6 +118,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/PropertyDetails" element={<PropertyDetails/>} />
+        <Route path="/PaymentPage" element={<PaymentPage/>} />
         {!isLoggedIn && <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />}
         {isLoggedIn && <Route path="/login" element={<Navigate to="/" />} />
         }
