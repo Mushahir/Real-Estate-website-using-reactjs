@@ -19,7 +19,7 @@ function Login({ setIsLoggedIn }) {
     <div id="bannerImage">
   <div className="banner-overlay">
     <div id="content" className="header">
-      <img src="/realestatelogo1.png" style={{ height: '32.375px'    , height: '270.375px',position: 'relative', top: '10px ',left: '42%'}} />
+      <img src="/realestatelogo1.png" className='logoestate' />
     </div>
   </div>
 </div>

@@ -21,7 +21,7 @@ function Signup() {
     <div id="bannerImage">
   <div className="banner-overlay">
     <div id="content" className="header">
-      <img src="realestatelogo1.png" style={{ height: '32.375px' }} />
+      <img src="realestatelogo1.png" className='logoestate' />
     </div>
   </div>
 </div>

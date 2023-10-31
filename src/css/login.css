@@ -63,7 +63,7 @@
   }
   .signup-container {
     width: 500px;
-    margin: 183px auto;
+    margin: 237px auto;
     padding: 55px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -175,3 +175,10 @@
     font-weight: bold;
     padding: 5px;
 } 
+.logoestate{
+height: 32.375px;  
+height: 270.375px;  
+position: relative;
+ top: 10px ;
+ left: 42%;
+}
