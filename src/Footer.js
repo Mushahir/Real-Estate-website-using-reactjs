@@ -12,16 +12,27 @@ function Footer() {
         <p>Email: info@example.com</p>
         <p>Phone: +1 (123) 456-7890</p>
       </div>
-
       <div className="footer-links">
         <h4>Quick Links</h4>
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/listings">Property Listings</a></li>
+          <li><a href="/PropertyDetails">Property Listings</a></li>
           <li><a href="/about">About Us</a></li>
           <li><a href="/contact">Contact Us</a></li>
         </ul>
       </div>
+      <div className="footer-map">
+          <iframe
+            title="Map"
+            width="100%"
+            height="300"
+            frameBorder="0"
+            scrolling="no"
+            marginHeight="0"
+            marginWidth="0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-75.1234567!3d40.1234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2zNTDCsDIwJzUwLjEiTiA3NcKwMjEnNTQuMCJX!5e0!3m2!1sen!2sus!4v1621332445229!5m2!1sen!2sus"
+          ></iframe>
+        </div>
     </div>
     <div className="footer-social">
         <h4>Follow Us</h4>

@@ -5,9 +5,8 @@ import './css/Contactform.css';
 function Contact() {
   return (
     <div>
-    <div className='contact-container'>
-</div>
 <div className='contact-component'>
+<h2 className='title'>Get in touch</h2>
 <ContactForm/> 
 </div>
 <div className="contact-container1">
