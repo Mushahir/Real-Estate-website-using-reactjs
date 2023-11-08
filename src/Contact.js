@@ -9,6 +9,9 @@ function Contact() {
 <h2 className='title'>Get in touch</h2>
 <ContactForm/> 
 </div>
+
+
+
 <div className="contact-container1">
       <div className="contact-method">
         <img src="phone.png" alt="Phone Icon" />
