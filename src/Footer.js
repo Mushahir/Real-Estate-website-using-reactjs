@@ -6,14 +6,22 @@ function Footer() {
     <footer className="footer">
     <div className="footer-content">
       <div className="footer-address">
-        <h4>Contact Us</h4>
+        <h2>Address</h2>
+        <h4>Head office</h4>
+        <p>123 Real Estate Street</p>
+        <p>City, State, ZIP Code</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+      </div>
+      <div className="footer-address">
+        <h2>Address</h2>
         <p>123 Real Estate Street</p>
         <p>City, State, ZIP Code</p>
         <p>Email: info@example.com</p>
         <p>Phone: +1 (123) 456-7890</p>
       </div>
       <div className="footer-links">
-        <h4>Quick Links</h4>
+        <h2>Quick Links</h2>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/PropertyDetails">Property Listings</a></li>
@@ -47,7 +55,7 @@ function Footer() {
       </div>
       <div className="footer-divider"></div>
       <p className="footer-copy">
-        &copy; real estate {new Date().getFullYear()}
+        &copy; {new Date().getFullYear()} ALL RIGHTS RESERVED. DESIGNED BY real Estate DEVELOPED BY Musha
       </p>
   </footer>
   );

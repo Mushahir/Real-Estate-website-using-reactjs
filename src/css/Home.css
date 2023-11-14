@@ -75,16 +75,34 @@
     padding: 20px;
   } */
   .home-container {
-    background-image: url('/public/navbarphto.avif'); /* Set the path to your background image */
+    /* background-image: url('/public/navbarphto.avif'); Set the path to your background image */
     /* background-position: center; Center the image */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 189px 0;
+    text-align: center; */
+
+
+  }
+  .home-container {
+    background-image: url('/public/navbarphto.avif');
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     padding: 189px 0;
     text-align: center;
+    animation: fadeIn 2s ease-in-out; 
+}
 
-
-  }
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1;
+    }
+}
   .property-list {
     margin: 0 auto;
     max-width: 90%;

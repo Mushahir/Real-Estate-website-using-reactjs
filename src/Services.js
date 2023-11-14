@@ -6,14 +6,14 @@ const Services = () => {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
   const testimonials = [
     {
-      text: "XYZ Real Estate helped us find our dream home. Their team was professional and efficient throughout the entire process.",
+      text: "After working with David to sell my home in 2013, I was convinced that he’s the only realtor I’ll ever need. Since then, I’ve bought two properties and sold one, and with each process, David’s knowledge, professionalism and terrific instincts have consistently guided us through to excellent outcomes. It is truly a pleasure to work with David – I’ve found that he keeps his client’s best interests in sharp focus and you can always trust that he is on top of every detail, big and small, which brings great peace of mind in any real estate transaction.",
       author: "John Doe",
       image: "enterprise-home.jpg",
     },
     {
       text: "We decided to sell our property through XYZ Real Estate, and we were delighted with the results. They secured a great deal for us.",
       author: "Jane Smith",
-      image: "enterprise-home.jpg",
+      image: "buyers-agent.jpg",
     },
   ];
 
