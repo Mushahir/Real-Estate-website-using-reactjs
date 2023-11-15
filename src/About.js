@@ -9,7 +9,7 @@ function About() {
       <h2>About Us</h2>
       <div className="about-content">
         <div className="about-image">
-          <img src="Marketing-HDevice.webp" alt="About Us" />
+          <img src="Marketing-HDevice.jpg" alt="About Us" />
         </div>
         <div className="about-text">
           <p>
@@ -50,7 +50,7 @@ function About() {
   <div className="offer-items">
     <div className="what-we-offer-left">
       <div className="offer-item">
-        <img src="propertyevaluation.webp" alt="Offer 1" />
+        <img src="propertyevaluation.jpg" alt="Offer 1" />
         <p>Property valuation</p>
       </div>
       <div className="offer-item">
@@ -64,7 +64,7 @@ function About() {
     </div>
     <div className="what-we-offer-right">
       <div className="offer-item">
-        <img src="lease.avif" alt="Offer 4" />
+        <img src="lease.jpg" alt="Offer 4" />
         <p>Lease management</p>
       </div>
       <div className="offer-item">
@@ -72,7 +72,7 @@ function About() {
         <p>Property Buy/Sale</p>
       </div>
       <div className="offer-item">
-        <img src="assistance.webp" alt="Offer 6" />
+        <img src="assistance.jpg" alt="Offer 6" />
         <p>Instant assistance</p>
       </div>
     </div>

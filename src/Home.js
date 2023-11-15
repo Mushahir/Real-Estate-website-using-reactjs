@@ -37,7 +37,7 @@ function Home() {
       <Propertymanagement
         title="Property Manager Resources"
         content="Stay up-to-date using our tips and guides on rent payments, leasing, management solutions, and more."
-        imageSource="/person-chatting.webp"
+        imageSource="/person-chatting.jpg"
         buttonLabel="Know More"
         link="/section1"
         content1="Renting Made Easy for Residents and Property Managers
